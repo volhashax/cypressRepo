@@ -1,15 +1,22 @@
 ## Useful Hotkeys
 
-### Search Everywhere
-To search for any file, action, class, symbol, tool window, or setting:
-- **Windows/Linux**: `Double Shift`
-- **macOS**: `Double Shift`
+### Search everywhere in the project: 
+Press Ctrl + Shift + A
 
-### Search in File
-To search for a text string within the current file:
-- **Windows/Linux**: `Ctrl+F`
-- **macOS**: `Cmd+F`
+### Search in the file:
+Press Ctrl + F
 
-### Search in Project
-To search for a text string across the entire project:
-- **Windows/Linux**: `Ctrl+Shift+F`
+### Duplicate line or selection:
+Press Ctrl + D
+
+### Select all accuracies:
+Press Ctrl + A
+
+### Go to Definition:
+Press Ctrl + B
+
+### Navigate Back:
+Press Ctrl + Alt + Left Arrow
+
+### Navigate Forward:
+Press Ctrl + Alt + Right Arrow
