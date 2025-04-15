@@ -1,3 +1,1 @@
 # cypressRepo
-
-test direct push
