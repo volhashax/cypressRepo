@@ -33,15 +33,33 @@ describe("Navigation Test selectors", () => {
   });
 });
 
-// Given Login page opened
-// When user reviews the page
-// Then user should see Title
-// Then user should see Username field with placeholder and empty value
-// Then user should see Password field with placeholder, password type and empty value
-// Then user should see Login button
+// list of use cases
 
-// When user logins with valid credentials
-// Then user should be navigated to the Inventory page
+it.skip("Given Login page opened", () => {
+  // Not implemented yet
+});
+it.skip("When user reviews the page", () => {
+  // Not implemented yet
+});
+it.skip("Then user should see Title", () => {
+  // Not implemented yet
+});
+it.skip("Then user should see Username field with placeholder and empty value", () => {
+  // Not implemented yet
+});
+it.skip("Then user should see Password field with placeholder, password type and empty value", () => {
+  // Not implemented yet
+});
+it.skip("Then user should see Login button", () => {
+  // Not implemented yet
+});
+
+it.skip("When user logins with valid credentials", () => {
+  // Not implemented yet
+});
+it.skip("Then user should be navigated to the Inventory page", () => {
+  // Not implemented yet
+});
 
 // When user logouts
 // Then user should see Title
