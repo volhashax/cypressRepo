@@ -32,3 +32,62 @@ describe("Navigation Test selectors", () => {
     cy.get("[data-test=login-button]").should("be.visible");
   });
 });
+
+// Given Login page opened
+// When user reviews the page
+// Then user should see Title
+// Then user should see Username field with placeholder and empty value
+// Then user should see Password field with placeholder, password type and empty value
+// Then user should see Login button
+
+// When user logins with valid credentials
+// Then user should be navigated to the Inventory page
+
+// When user logouts
+// Then user should see Title
+// Then user should see Username field with placeholder and empty value
+// Then user should see Password field with placeholder, password type and empty value
+// Then user should see Login button
+// Then error message should not be displayed
+
+// When user clicks on the Login without passing credentials
+// Then colored error message about missing username should be shown
+// Then error close button should be show
+// Then username field should be highlighted and contain error icon
+// Then password field should be highlighted and contain error icon
+
+// When user clicks on Error close button
+// Then error message should not be displayed
+// Then username field should not be highlighted and contain error icon
+// Then password field should not be highlighted and contain error icon
+
+// When user types actual username without password
+// Then colored error message about missing password should be shown
+// Then error close button should be shown
+// Then username field should not be highlighted and not contain error icon
+// Then password field should be highlighted and contain error icon
+
+// When user types actual password without username
+// Then colored error message about missing username should be shown
+// Then error close button should be shown
+// Then username field should be highlighted and contain error icon
+// Then password field should be highlighted and contain error icon
+
+// When user types valid username and invalid password
+// Then colored error message about credentials do not match any existing user should be shown
+// Then error close button should be shown
+// Then username field should be highlighted and contain error icon
+// Then password field should be highlighted and contain error icon
+
+// When user tries to use locked account
+// Then colored error message about locked user should be shown
+// Then error close button should be shown
+// Then username field should be highlighted and contain error icon
+// Then password field should be highlighted and contain error icon
+
+// When user tries to navigate to Inventory page without login
+// Then user should be navigated to the Login page
+// Then colored error message about locked user should be shown
+// Then error close button should be shown
+// Then username field should be highlighted and contain error icon
+// Then password field should be highlighted and contain error icon
