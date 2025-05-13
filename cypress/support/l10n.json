@@ -1,0 +1,10 @@
+{
+  "loginPage": {
+    "title": "Swag Labs",
+    "loginForm": {
+      "username": "Username",
+      "password": "Password",
+      "loginButton": "Login"
+    }
+  }
+}

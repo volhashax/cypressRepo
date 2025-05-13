@@ -2,6 +2,7 @@
   "name": "cypress_project",
   "version": "1.0.0",
   "devDependencies": {
-    "cypress": "^14.2.1"
+    "cypress": "^14.2.1",
+    "prettier": "3.5.3"
   }
 }
